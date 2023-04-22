@@ -1,45 +1,25 @@
+//Desustruracion
+//Asignacion destructurantes
 
-// Funciones en JS
-const saludar =  function saludar(nombre) {
-    return `hola,  ${nombre}`
+const persona = {
+    nombre: 'Tony',
+    edad: 43,
+    clave: 'Iroman'
 }
 
-const saludar2 =(nombre) => {
-    return `hola ${nombre}`
+// const {nombre, edad, clave} = persona
+
+// console.log(nombre)
+// console.log(edad)
+// console.log(clave)
+
+
+const retornaPersona = (usuario)=> {
+    console.log(usuario)
+
 }
 
-const saludar3 =(nombre) => `Hola, ${ nombre }`
-const saludar4 =() => `Hola mundo`
-
-// console.log(saludar, ('bray') )
-
-
-console.log(saludar2 ('vegeta'))
-console.log(saludar3 ('goku'))
-console.log(saludar4 ())
-
-const getUser = () => ({
-    
-        uid: 'ABC123',
-        username: 'El_papi12345'
-    
-})
-const user = getUser()
-console.log(user )
-
-
-// tarea
-
-const getUserarioActivo = (nombre) =>({
-        uid: 'ABC342',
-        username: nombre
-     })
-
-const usuarioActivo =  getUserarioActivo ( 'fernando')
-console.log(usuarioActivo) 
-
-
-
+retornaPersona(persona)
 
 
 
