@@ -1,35 +1,15 @@
-//Desustruracion
-//Asignacion destructurantes
+// import {heroes} from './data/heroes.js'
+// import {heroes} from './data/heroes'  imp
 
-const persona = {
-    nombre: 'Tony',
-    edad: 43,
-    clave: 'Iroman'
-}
-
-// const {nombre, edad, clave} = persona
-
-// console.log(nombre)
-// console.log(edad)
-// console.log(clave)
+import { heroes } from "./data/heroes";
 
 
-const retornaPersona = (usuario)=> {
-    console.log(usuario)
+
+const getHeroByID = ( id) => {
+    return {}
+
 
 }
 
-retornaPersona(persona)
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(getHeroByID(2) )
 
