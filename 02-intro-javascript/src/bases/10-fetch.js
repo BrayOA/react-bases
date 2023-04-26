@@ -1,7 +1,4 @@
 
-
-
-
 const apiKey = 'NDTCeIChCG79b5IoswLXRsHm2YcRXq4C'
 
 const peticion = fetch(`https://api.giphy.com/v1/gifs/random?api_key=${ apiKey }`)
