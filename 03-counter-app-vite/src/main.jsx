@@ -1,15 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 // import { HelloWorldApp } from './HelloWorldApp'
-import { FirstApp } from './FirstApp'
+// import { FirstApp } from './FirstApp'
 import './styles.css'
+import { CunterApp } from './CunterApp'
 
-FirstApp
+// FirstApp
 // HelloWorldApp
 
 
 ReactDOM.createRoot (document.getElementById('root')).render(
     <React.StrictMode>
-        <FirstApp title="soy Goku" subTitle ={234}/>
+        <CunterApp value = {10}/>
     </React.StrictMode>
 )
