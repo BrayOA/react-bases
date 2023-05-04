@@ -11,6 +11,6 @@ import { CunterApp } from './CunterApp'
 
 ReactDOM.createRoot (document.getElementById('root')).render(
     <React.StrictMode>
-        <CunterApp value = {10}/>
+        <CunterApp value = {20}/>
     </React.StrictMode>
 )
