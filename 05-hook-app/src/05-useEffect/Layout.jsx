@@ -2,7 +2,7 @@ import { useCounter } from "../hooks/useCounter"
 import { useFetch } from "../hooks/useFech"
 
 
-export const MultipleCustonHooks = () => {
+export const Layout = () => {
 
   const {counter, increment} = useCounter(1)
 
